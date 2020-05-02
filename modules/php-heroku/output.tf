@@ -1,4 +1,4 @@
 output "url" {
-  value = "https://anugrahzeputra36nolsatuquiz.herokuapp.com"
+  value = "https://someherokuapp.herokuapp.com"
 }
 

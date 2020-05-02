@@ -1,10 +1,10 @@
-resource "heroku_app" "anugrahzeputra36nolsatuquiz" {
-  name = "anugrahzeputra36nolsatuquiz"
+resource "heroku_app" "someherokuapp" {
+  name = "someherokuapp"
   region = "us"
 }
 
-resource "heroku_build" "anugrahzeputra36nolsatuquiz" {
-  app = heroku_app.anugrahzeputra36nolsatuquiz.name
+resource "heroku_build" "someherokuapp" {
+  app = heroku_app.someherokuapp.name
   buildpacks = ["https://github.com/heroku/heroku-buildpack-php"]
 
   source = {
